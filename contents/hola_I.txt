@@ -1,10 +1,10 @@
 oi:hola
 qual é o seu nome?:¿cómo te llamas?
-meu nome é []:me llamo [];soy [] 
+meu nome é [NOME]:me llamo [NOME];soy [NOME] 
 de onde você é?:¿de dónde eres?
-eu sou []:soy de [];soy []
+eu sou [NACIONALIDADE]:soy de [PAÍS];soy [NACIONALIDADE]
 onde você mora?:¿dónde vives?
-moro em [];vivo en []
+moro em [CIDADE];vivo en [CIDADE]
 bom dia;buenos días
 boa tarde;buenas tardes
 boa noite; buenas noches
