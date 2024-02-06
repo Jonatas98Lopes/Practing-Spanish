@@ -1,0 +1,12 @@
+eu:yo
+tu:tú
+ele:él
+ela:ella
+você:usted
+nós(MASCULINO):nosotros
+nós(FEMININO):nosotras
+eles:ellos
+elas:ellas
+vocês:ustedes
+vós(MASCULINO):vosotros
+vós(FEMININO):vosotras
