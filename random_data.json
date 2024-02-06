@@ -1,0 +1,73 @@
+{
+    "nomes": [
+        "Julia", 
+        "Enzo", 
+        "Ana", 
+        "Pedro", 
+        "Larissa", 
+        "Lucas", 
+        "Mariana",
+        "Gabriel", 
+        "Isabela", 
+        "Thiago", 
+        "Beatriz", 
+        "Matheus", 
+        "Carolina",           
+        "Felipe", 
+        "Camila", 
+        "Vinicius", 
+        "Amanda", 
+        "Jose", 
+        "Isabel",
+        "Leonardo"
+    ],
+    "country_data": {
+        
+        "paises": [
+            "Argentina", "Australia" ,"Brasil", "Canadá", "China" ,"Francia",
+            "Alemania", "India" , "Indonesia", "Italia", "Japón", "México",
+            "Rusia", "Arabia Saudita", "Sudáfrica", "Corea del Sur", "Turquía",
+            "Reino Unido","Estados Unidos", "Chile"
+        ],
+
+        "nacionalidades_br": [
+            "Argentino", 
+            "Australiano", 
+            "Brasileiro",
+            "Canadense", 
+            "Chinês",
+            "Francês",
+            "Alemão",
+            "Indian​o",
+            "Indonésio",
+            "Italiano",
+            "Japonês",
+            "Mexicano",
+            "Russo",
+            "Saudita",
+            "Sul-Africano",
+            "Sul-Coreano",
+            "Turco",
+            "Britânico",
+            "Estadunidense",
+            "Chileno"
+        ],
+
+        "nacionalidades_es": [
+            "Argentino", "Australiano", "Brasileño", "Canadiense", "Chino",
+            "Francés", "Alemán", "Indio", "Indonesio", "Italiano", "Japonés",
+            "Mexicano", "Ruso", "Saudita", "Sudafricano", "Surcoreano", "Turco",
+            "Británico", "Estadounidense", "Chileno"
+        ]
+
+
+    },
+    "cidades": [
+        "São Paulo", "Rio de Janeiro","Tóquio", "Nova York", "Londres",
+            "Paris", "Pequim", "Sydney", "Cidade do México", "Moscou",
+            "Cairo", "Mumbai", "Toronto", "Berlim", "Seul", "Istambul",
+            "Bangkok", "Cidade do Cabo", "Los Angeles", "Dubai", "Buenos Aires"
+    ]
+
+
+}

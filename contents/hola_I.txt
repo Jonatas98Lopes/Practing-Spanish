@@ -2,22 +2,22 @@ oi:hola
 qual é o seu nome?:¿cómo te llamas?
 meu nome é [NOME]:me llamo [NOME];soy [NOME] 
 de onde você é?:¿de dónde eres?
-eu sou [NACIONALIDADE]:soy de [PAÍS];soy [NACIONALIDADE]
+eu sou [NACIONALIDADEBR]:soy de [PAÍS];soy [NACIONALIDADEES]
 onde você mora?:¿dónde vives?
-moro em [CIDADE];vivo en [CIDADE]
-bom dia;buenos días
-boa tarde;buenas tardes
-boa noite; buenas noches
-tarde: buenas
-dia: buenas
-noite: buenas
+moro em [CIDADE]:vivo en [CIDADE]
+bom dia:buenos días
+boa tarde:buenas tardes
+boa noite:buenas noches
+tarde:buenas
+dia:buenas
+noite:buenas
 tudo bem?:¿qué tal?;¿cómo estás?;¿cómo te va?
 tô péssimo:fatal
 tô mal:mal
 tô bem:bien
-tô muito bem: muy bien
+tô muito bem:muy bien
 prazer em conhecer:mucho gusto en conocerte;mucho gusto;encantado
-até logo:hasta luego;hasta la vista; nos vemos; adiós
+até logo:hasta luego;hasta la vista;nos vemos;adiós
 tchau:chau;chao
 até a próxima:hasta pronto
 adeus:hasta siempre
