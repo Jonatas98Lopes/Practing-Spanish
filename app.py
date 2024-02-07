@@ -8,7 +8,7 @@ event, values = window.read()
 if event == 'Iniciar':
 
     window.close()
-
+    
     contents = []
     for key, value in values.items():
         if value:
@@ -28,12 +28,24 @@ if event == 'Iniciar':
                     break
 
                 elif event == 'Enviar':
-                    if values['answer'].strip() in answer:
-                        window.close()
-                        break
-                    else:
-                        window['answer'].update('')
-                        window['invalid_answer'].update('Incorreto, tente novamente.')
+
+                    if type(answer) == list: 
+                        lower_answer = []
+                        [lower_answer.append(sentence.lower()) for sentence in answer]
+
+                        if values['answer'].lower().strip() in lower_answer:
+                            window.close()
+                            break
+                        else:
+                            window['answer'].update('')
+                            window['invalid_answer'].update('Incorreto, tente novamente.')
+                    else: 
+                        if values['answer'].lower().strip() in answer.lower():
+                            window.close()
+                            break
+                        else:
+                            window['answer'].update('')
+                            window['invalid_answer'].update('Incorreto, tente novamente.')
                 
                 elif event == 'Limpar':
                     window['answer'].update('')
@@ -41,3 +53,4 @@ if event == 'Iniciar':
 
 else:
     window.close()
+    
