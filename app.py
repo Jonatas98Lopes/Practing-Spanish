@@ -8,7 +8,7 @@ event, values = window.read()
 if event == 'Iniciar':
 
     window.close()
-    
+
     contents = []
     for key, value in values.items():
         if value:
@@ -17,6 +17,8 @@ if event == 'Iniciar':
     for content in contents:
         dict_exercicios = gerando_dicionario(content)
 
+        fechar_janela = False
+
         for exercicio, answer in dict_exercicios.items():
 
             window = pergunta(exercicio)
@@ -24,6 +26,7 @@ if event == 'Iniciar':
                 event, values = window.read()
                 
                 if event == sg.WINDOW_CLOSED:
+                    fechar_janela = True
                     window.close() 
                     break
 
@@ -50,6 +53,7 @@ if event == 'Iniciar':
                 elif event == 'Limpar':
                     window['answer'].update('')
 
+            if fechar_janela: break
 
 else:
     window.close()
