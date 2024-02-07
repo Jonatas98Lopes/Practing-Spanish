@@ -8,9 +8,9 @@ moro em [CIDADE]:vivo en [CIDADE]
 bom dia:buenos días
 boa tarde:buenas tardes
 boa noite:buenas noches
-tarde:buenas
-dia:buenas
-noite:buenas
+tarde(SAUDAÇÃO):buenas
+dia(SAUDAÇÃO):buenas
+noite(SAUDAÇÃO):buenas
 tudo bem?:¿qué tal?;¿cómo estás?;¿cómo te va?
 tô péssimo:fatal
 tô mal:mal
