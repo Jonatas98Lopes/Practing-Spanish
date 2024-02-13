@@ -31,10 +31,10 @@ if event == 'Iniciar':
                     break
 
                 elif event == 'Enviar':
-
+                    
                     if type(answer) == list: 
                         lower_answer = []
-                        [lower_answer.append(sentence.lower()) for sentence in answer]
+                        [lower_answer.append(sentence.lower().strip()) for sentence in answer]
 
                         if values['answer'].lower().strip() in lower_answer:
                             window.close()

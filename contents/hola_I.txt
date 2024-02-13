@@ -5,6 +5,7 @@ de onde você é?:¿de dónde eres?
 eu sou [NACIONALIDADEBR]:soy de [PAÍS];soy [NACIONALIDADEES]
 onde você mora?:¿dónde vives?
 moro em [CIDADE]:vivo en [CIDADE]
+[NOME], te apresento meu pai:[NOME], te presento a mi padre
 bom dia:buenos días
 boa tarde:buenas tardes
 boa noite:buenas noches

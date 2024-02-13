@@ -1,0 +1,14 @@
+escola:escuela
+jornal:periódico
+escritório:oficina
+radio:radio
+agência de viagens:agencia de viajes
+oficina:taller
+hospital:hospital
+banco:banco
+restaurante:restaurante
+açougue:carnicería
+carpinteria:carpintería
+padaria:panadería
+delegacia:comisaría
+teatro:teatro
