@@ -1,0 +1,28 @@
+o quintal:el patio 
+o jardim:el jardín
+a garagem:el garaje
+o sótão:el desván 
+o porão:el sótano
+o hall de entrada:el recibidor 
+o térreo:la planta baja
+la chimenea:a lareira 
+a churrasqueira:la parrilla 
+a janela:la ventana 
+a porta:la puerta 
+a parede: la pared
+o teto:el techo
+o chão:el suelo 
+a sala:el salón 
+a sala de jantar:el comedor
+o quarto:el dormitorio;la habitación
+o cômodo:la habitación
+el cuarto de baño:o banheiro
+a cozinha:la cocina
+a sacada:el balcón
+o terraço:la terraza 
+o escritório(CÔMODO):el despacho
+o escritório(PRÉDIO):la oficina
+a escada:la escalera
+o corredor:el pasillo
+o andar:el piso;la planta
+o apartamento:el apartamento;el piso
