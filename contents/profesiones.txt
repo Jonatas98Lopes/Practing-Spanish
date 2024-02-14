@@ -2,7 +2,7 @@ estudante:estudiante
 jornalista:periodista
 professor(a):profesor(a)
 advogado(a):abogado(a)
-narrador(a)/locutor:locutor(a)
+narrador(a)/locutor(a):locutor(a)
 guia turístico:guia turístico
 pintor(a):pintor(a)
 caixa:cajero(a)

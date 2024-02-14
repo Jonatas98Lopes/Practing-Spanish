@@ -58,6 +58,30 @@ def substitui_caractere_lista(lista:list, caractere:str):
         lista[index] = new_string
 
 
+def get_palavras_portugues(file):
+    file_content = abre_arquivo(file)
+    words_portuguese = []
+    for content in file_content:
+        filtered_content = content.split(':')[0].strip()
+        if filtered_content == '\r\n': continue
+        words_portuguese.append(filtered_content)
+    return words_portuguese
+
+
+def escolhe_palavra_portugues_aleatorio(file):
+    lista = get_palavras_portugues(file)
+    while True:
+        random_result = choice(lista)
+        if random_result not in('', ' ', '\r', '\n', '\r\n'):
+            return choice(lista)
+
+
+def encontra_correspodencia_espanhol(palavra_ptBr, file):
+    file_content = abre_arquivo(file)
+    for content in file_content:
+        if content.split(':')[0] == palavra_ptBr:
+            return content.split(':')[1].strip()
+
 def adiciona_valor_valido(string:str):
     if string.find('[NOME]') != -1: 
         nome = choice(DADOS_ARBITRARIOS["nomes"])
@@ -104,6 +128,12 @@ def gerando_dicionario(file):
         elif value.find('[CIDADE]') != -1:
             cidade = escolher_dado_json("cidades")
             value = value.replace('[CIDADE]', cidade)
+
+        elif value.find('[PROFISSÃO]') != -1:
+            random_profissao = escolhe_palavra_portugues_aleatorio('profesiones.txt')
+            correspondencia = encontra_correspodencia_espanhol(random_profissao, 'profesiones.txt')
+            value = value.replace('[PROFISSÃO]', random_profissao)
+            value = value.replace('[PROFISION]', correspondencia)
         
         portugues, espanhol = value.split(':')
 
@@ -112,4 +142,4 @@ def gerando_dicionario(file):
         dict_exercicios[portugues] = espanhol
 
     
-    return dict_exercicios
+    return dict_exercicios 
